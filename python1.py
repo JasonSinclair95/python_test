@@ -40,7 +40,7 @@ def one(input1, input2):
 	if len(input2) > len(input1):
 		return input2
 	if len(input2) == len(input1):
-		return input1 + " " + input2
+		return ('{} {}'.format(input1,input2)
 	else:
 		return ""
 
